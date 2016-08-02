@@ -33,3 +33,9 @@ select {
 	color: #ffffff;
 	border: none;
 }
+
+p {
+	padding-top: 8px;
+	margin: 8px;
+	padding: 8px;
+}
