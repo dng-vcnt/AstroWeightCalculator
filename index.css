@@ -5,6 +5,7 @@ body {
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -34,7 +35,7 @@ select {
 	border: none;
 }
 
-p {
+p.output {
 	padding-top: 8px;
 	margin: 8px;
 	padding: 8px;
