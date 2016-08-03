@@ -1,3 +1,29 @@
+function populateList() {
+	var planetArray = [
+		{name:"Sun", value: 27.9}, 
+		{name:"Mercury", value: 0.377}, 
+		{name:"Venus", value: 0.9032}, 
+		{name:"Earth", value: 1}, 
+		{name:"Moon", value: 0.1655}, 
+		{name:"Mars", value: 0.3895}, 
+		{name:"Jupiter", value: 2.640}, 
+		{name:"Saturn", value: 1.139}, 
+		{name:"Uranus", value: 0.917}, 
+		{name:"Neptune", value: 1.148}, 
+		{name:"Pluto", value: 0.06}];
+	var select = document.getElementById("planet");
+
+	for (var i = 0; i < planetArray.length; i++) {
+		var opt = document.createElement("option");
+		opt.innerHTML += planetArray[i].name;
+		opt.value = planetArray[i].value;
+
+		select.appendChild(opt);
+	}
+
+	
+
+}
 function calculateWeight() {
 	var userWeight;
 	var planet;
